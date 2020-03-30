@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { KpiComponent } from './kpi/kpi.component';
+import { GeoChartComponent } from './components/geo-chart/geo-chart.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KpiComponent,
+    GeoChartComponent
   ],
   imports: [
     BrowserModule,
